@@ -29,7 +29,7 @@ header nav .nav-right-section{
     align-items: center;
 }
 
-.a{
+header nav .nav-right-section a{
     margin-right: 10px;
-    color: #000000;
+    color: black;
 }
