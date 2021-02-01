@@ -4,12 +4,10 @@ body {
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 a {
     text-decoration: none;
     cursor: pointer;
 }
-
 header {
     width: 100%;
     height: 60px;
@@ -18,7 +16,6 @@ header nav {
     display: flex;
     justify-content: flex-end;
 }
-
 header nav .nav-right-section {
     width: 250px;
     height: auto;
@@ -31,7 +28,6 @@ nav .nav-right-section a {
     margin-right: 10px;
     color: #000000;
 }
-
 nav .nav-right-section .menu-icon {
     background-image: url('https://static.thenounproject.com/png/756729-200.png');
     background-repeat: no-repeat;
@@ -44,30 +40,25 @@ nav .nav-right-section img {
     border-radius: 50%;
     margin-left: 10px;
 }
-
 main{
     margin-top: 150px;
     text-align: center;
 
 }
-
 main .main-logo img {
     width: 400px;
     height: 132px;
 }
-
 main .main-logo {
     width: 530px;
     margin: 0 auto;
     margin-bottom: 35px;
 }
-
 main .main-input{
     width: 530px;
     margin: 0 auto;
     margin-bottom: 35px;
 }
-
 main .main-input-container{
     width: 525px;
     border-radius: 100px;
@@ -76,10 +67,52 @@ main .main-input-container{
     justify-content: center;
     align-items: center;
 }
-
 main .main-input input {
     width: 450px;
     height: 40px;
     border: none;
     outline: none;
+}
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+main .main-input-container .searh-icon {
+    background-image: url('https://img.icons8.com/android/24/000000/search.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+main .main-input .micro-icon{
+    background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+main .main-buttons{
+    width: 530px;
+    margin: 0 auto;
+}
+main .main-buttons div{
+    display: inline-block;
+}
+main .main-buttons button{
+    height: 36px;
+    background-color: #f2f2f2;
+    border: 0;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+main .main-buttons button:hover{
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px #000001;
+    color: #222222;
 }
